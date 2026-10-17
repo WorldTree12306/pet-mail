@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "pets": [
+    { "id": "dafeiyu", "name": "大肥鱼", "canSend": true, "canReceive": true },
+    { "id": "fox", "name": "小狐娘", "canSend": true, "canReceive": true }
+  ],
+  "routes": [
+    { "event": "dsh-dispatch", "from": "dafeiyu", "to": "fox", "enabled": true },
+    { "event": "task-done", "from": "fox", "to": "dafeiyu", "enabled": true }
+  ]
+}
